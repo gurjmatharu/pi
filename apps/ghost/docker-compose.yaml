@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  ghost:
+    image: ghost:latest
+    container_name: ghost
+    restart: always
+    ports:
+      - "3001:2368"
+    environment:
+      NODE_ENV: development
+      members__enabled: "false"
+      url: http://localhost:3001
