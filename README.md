@@ -2,8 +2,8 @@
 - [x] Setup Supabase
 - [x] Set up database structure and add openai
 - [x] fastapi backend with supabase backend/orm
-- [ ] Turn off Application to enable admin ui
-- [ ] set up backend and openai
+- [ ] Turn off Application (https://one.dash.cloudflare.com/3ce5ba63ac28ef43d0e610e064a10167/access/policies?tab=reusable) to enable admin ui
+- [ ] set up backend with fastapi and openai
 
 # Setup
 
