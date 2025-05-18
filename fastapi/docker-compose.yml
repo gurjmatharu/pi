@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  snapbite-api:
+    build: .
+    ports:
+      - "8001:8001"
+    volumes:
+      - .:/app
+      - ./uploads:/app/uploads
+    environment:
+      - PYTHONUNBUFFERED=1
+      - ENV_FILE=.env
+    env_file:
+      - .env

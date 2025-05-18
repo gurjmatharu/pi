@@ -1,1 +1,7 @@
 .venv
+.env
+**/.env
+# Python bytecode cache (recursive)
+__pycache__/
+**/__pycache__/
+*.py[cod]

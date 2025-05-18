@@ -1,2 +1,8 @@
 fastapi
 supabase
+pydantic
+uvicorn
+httpx
+pydantic-settings
+openai
+python-multipart
